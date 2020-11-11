@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/mall/mall",
+    "pages/shelf/shelf",
+    "pages/sort/sort",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/list/list",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#555",
+    "navigationBarTitleText": "书旗",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#23b383",
+    "list": [
+      {
+        "pagePath": "pages/shelf/shelf",
+        "iconPath": "./images/shu.png",
+        "selectedIconPath": "./images/shu_selected.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "./images/mall.png",
+        "selectedIconPath": "./images/mall_selected.png",
+        "text": "书城"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "iconPath": "./images/sort.png",
+        "selectedIconPath": "./images/sort_selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./images/user.png",
+        "selectedIconPath": "./images/user_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

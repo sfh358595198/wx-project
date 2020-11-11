@@ -1,0 +1,14 @@
+<view class="tabnav">
+  <text wx:for="{{list}}" wx:key="index" bindtap="onturn" data-index="{{index}}" class="{{index==active?'active':''}}">{{item}}</text>
+</view>
+<view class="tabart">
+  <view class="module" wx:for="{{cont}}" wx:key="index" bindtap="skip" data-index="{{index}}">
+    <view class="info">
+      <text class="kind">{{item.title}}</text>
+      <text class="tag">{{item.tag}}</text>
+    </view>
+    <view class="fm">
+      <image src="{{item.url}}"></image>
+    </view>
+  </view>
+</view>

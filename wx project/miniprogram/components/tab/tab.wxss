@@ -1,0 +1,68 @@
+.tabnav{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.tabnav text{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+}
+.active{
+  color: #23b383;
+  font-weight: bold;
+  position: relative;
+}
+.active::after{
+  content: '';
+  width: 100%;
+  height: 5rpx;
+  background-color: #23b383;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tabart{
+  padding: 40rpx 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.module{
+  width: 336rpx;
+  height: 180rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(245,245,245,0.5);
+  /* background-color: aqua; */
+  margin-bottom: 16rpx;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.info  .kind{
+  font-size: 32rpx;
+  color:#333;
+}
+.info .tag{
+  margin-top: 34rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+.fm{
+  width: 126rpx;
+  height: 110rpx;
+}
+.fm image{
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+}
+.tabactive{
+  color: #23b383;
+  font-weight: bold;
+}

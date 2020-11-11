@@ -1,0 +1,16 @@
+<view class="mall">
+  <search></search>
+  <swiper></swiper>
+  <view class="sex">
+    <updown url="../../images/female.png" imgw="48rpx" imgh="48rpx" text="女生"></updown>
+    <updown url="../../images/male.png" imgw="48rpx" imgh="48rpx" text="男生"></updown>
+  </view>
+  <module title="男频主编推荐" isbold list="{{arr[0]}}"></module>
+  <module title="女频主编推荐" isbold list="{{arr[1]}}"></module>
+  <module1 title="男生爽文" isbold turn bindturn="click" data-i="3" list="{{arr[2]}}"></module1>
+  <module1 title="女生畅销" isbold turn bindturn="click" data-i="4" list="{{arr[3]}}"></module1>
+  <module title="男频最新爆款" turn bindturn="click" data-i="5" list="{{arr[4]}}"></module>
+  <module title="女频最新红文" turn bindturn="click" data-i="6" list="{{arr[5]}}"></module>
+  <module title="男频完结精品" turn bindturn="click" data-i="7" list="{{arr[6]}}"></module>
+  <module title="女频完结精品" list="{{arr[7]}}"></module>
+</view>

@@ -1,0 +1,16 @@
+<view class="{{focus?'sarchpage':''}}">
+  <view class="searchbox">
+    <input type="text" placeholder="请输入书名或者作者名" value="{{value}}"  bindinput="onin" class="{{focus&&!value?'onfcs':''}}" always-embed focus/>
+    <icon type="search" class="searchicon"></icon>
+    <icon type="cancel" color="#333" size="14" class="cancelicon" wx:if="{{value}}" bindtap="rescind"></icon>
+    <text wx:if="{{focus&&!value}}" bindtap="cancel">取消</text>
+    <text wx:if="{{focus&&value}}" bindtap="search">搜索</text>
+  </view>
+  <view class="origin" wx:if="{{focus&&!value}}">
+
+  </view>
+  <view class="result" wx:if="{{}}">
+
+  </view>
+</view>
+

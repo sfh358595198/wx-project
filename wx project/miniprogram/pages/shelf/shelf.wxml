@@ -1,0 +1,10 @@
+<view>
+  <search></search>
+  <view wx:if="{{list.length}}" class="shelflist">
+    <view class="shelfitem" wx:for="{{list}}" wx:key="index">
+      <image src="{{item.url}}" class="fm" mode="widthFix"></image>
+      <text class="bn">{{item.bookname}}</text>
+    </view>
+  </view>
+  <empty bindclick="gomall" wx:else></empty>
+</view>

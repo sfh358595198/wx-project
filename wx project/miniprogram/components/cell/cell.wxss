@@ -1,0 +1,32 @@
+.cell{
+  /* width: 90%; */
+  /* background: #999; */
+  height: 126rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30rpx;
+  padding-right: 50rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.cell .title{
+  font-size: 32rpx;
+  color: #333;
+}
+.cell .value{
+  font-size: 28rpx;
+  color: #999;
+}
+.border{
+  border-bottom: 2rpx solid #eee;
+}
+.bold{
+  font-weight: bold;
+}
+.img{
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  right: 0;
+}

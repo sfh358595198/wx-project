@@ -1,0 +1,5 @@
+<view class="cell {{border?'border':''}}">
+  <text class="title {{bold?'bold':''}} {{title_class}}">{{title}}</text>
+  <text class="value">{{value}}</text>
+  <image wx:if="{{show}}" class="img" src="../../images/arrow.png"></image>
+</view>

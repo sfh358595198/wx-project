@@ -1,0 +1,46 @@
+.titlewrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 48rpx 30rpx 24rpx;
+  margin-top: 16rpx;
+}
+.titlewrap .title{
+  font-size: 36rpx;
+  color: #000;
+}
+.bold{
+  font-weight: bold;
+}
+.titlewrap .turn{
+  font-size: 28rpx;
+  color: #23b383;
+}
+.gridwrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.grid{
+  display: block;
+  width: 218rpx;
+  text-align: left;
+}
+image{
+  width: 100%;
+}
+.bookname{
+  display: block;
+  font-size: 26rpx;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.author{
+  display: block;
+  font-size: 24rpx;
+  color: #999;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

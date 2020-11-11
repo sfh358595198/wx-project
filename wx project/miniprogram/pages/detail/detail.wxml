@@ -1,0 +1,39 @@
+<view class="detail">
+  <view class="showwrap">
+    <view class="fm">
+      <image src="{{item.url}}"></image>
+    </view>
+    <view class="text">
+      <text class="bookname">{{item.bookname}}</text>
+      <text class="author">{{item.author}}</text>
+      <text class="desc">连载 625万字 0.6书豆/千字</text>
+    </view>
+  </view>
+  <view class="bookrefer">
+    <view class="smalltitle">内容简介</view>
+    <view class="intro">{{item.intro}}</view>
+    <!-- <text>{{item.tag}}</text> -->
+    <cell title="最新" title_class="zx" bold border value="第一章 胎死腹中" show></cell>
+    <cell title="目录" bold border value="共1章" show></cell>
+  </view>
+  <view class="comment">
+    <cell title="评论" bold border value="写评论"></cell>
+
+  </view>
+  <module title="相关推荐" turn list="{{list}}"></module>
+  <view class="footcard">
+    <view class="bookinfo">图书信息</view>
+    <view class="carditem">
+      <text class="a">版权来源</text>
+      <text class="b">书旗小说</text>
+    </view>
+    <view class="carditem">
+      <text class="a">免责声明</text>
+      <text class="b">本书数字版权由原创版权提供，授权本软件使用、制作、发行，若包含不良信息，请及时告知客服。</text>
+    </view>
+  </view>
+  <view class="footbar">
+    <text class="operate {{text=='已加书架'?'added':''}}" bindtap="add">{{text}}</text>
+    <text class="start">开始阅读</text>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+.empty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty image{
+  width: 288rpx;
+  height: 288rpx;
+  margin-top: 120rpx;
+}
+.empty text{
+  font-size: 30rpx;
+  color: #999;
+  margin-top: 36rpx;
+}
+.empty button{
+  background-color: #23b383;
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: normal;
+  line-height: 48rpx;
+  margin-top: 250rpx;
+  width: 70%;
+  padding: 20rpx 0;
+}

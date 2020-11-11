@@ -1,0 +1,6 @@
+<view class="updown">
+  <view class="imgwrap">
+    <image src="{{url}}" mode="aspectFit"></image>
+  </view>
+  <text>{{text}}</text>
+</view>

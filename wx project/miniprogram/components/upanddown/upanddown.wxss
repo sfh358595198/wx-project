@@ -1,0 +1,19 @@
+.updown{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rpx;
+}
+.updown .imgwrap{
+  width: 96rpx;
+  height: 96rpx;
+}
+.updown image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.updown text{
+  margin: 10rpx 0;
+  text-align: center;
+}

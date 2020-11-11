@@ -1,0 +1,8 @@
+<view>
+  <user></user>
+  <cell title="我的会员" border value="开通会员" show></cell>
+  <cell title="书豆" border value="充值" show></cell>
+  <cell title="消费充值记录" border show></cell>
+  <cell title="购买过的书" border show></cell>
+  <cell title="意见反馈" value="ID:8000000" show></cell>
+</view>

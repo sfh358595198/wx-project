@@ -1,0 +1,4 @@
+<view class="searchbox">
+    <input type="text" placeholder="请输入书名或者作者名" bindfocus="onfocus" always-embed/>
+    <icon type="search" class="searchicon"></icon>
+  </view>

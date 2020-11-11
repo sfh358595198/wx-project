@@ -1,0 +1,10 @@
+<view class="userbox">
+  <view class="photowrap">
+    <image src="../../images/userphoto.png"></image>
+  </view>
+  <view class="sign">
+    <navigator url="../../pages/login/login">登录</navigator> 
+    <text>/</text>
+    <navigator url="../../pages/register/register">注册</navigator>
+  </view>
+</view>

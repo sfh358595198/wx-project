@@ -1,0 +1,11 @@
+.mall{
+  margin-bottom: 50rpx;
+}
+.sex{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 60rpx;
+}
+.sex updown{
+  width: 100%;
+}

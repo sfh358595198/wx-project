@@ -1,0 +1,8 @@
+<swiper indicator-dots autoplay circular interval="2000" duration="{{duration}}">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <!-- <view class="swiper-item {{item}}"></view> -->
+      <image class="swiper-item" src="https://img-tailor.11222.cn/pm/book/operate/2020102314132108.png"></image>
+    </swiper-item>
+  </block>
+</swiper>

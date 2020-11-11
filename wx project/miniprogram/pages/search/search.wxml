@@ -1,0 +1,14 @@
+<view>
+  <search></search>
+  <view wx:if="{{value}}">
+    <cell title="热门搜索" bold></cell>
+    <view class="hot">
+      <text wx:for="{{hot}}">{{item}}</text>
+    </view>
+    <cell title="搜索历史" bold></cell>
+    <view class="his">
+      <text wx:for="{{his}}">{{item}}</text>
+    </view>
+  </view>
+  
+</view>

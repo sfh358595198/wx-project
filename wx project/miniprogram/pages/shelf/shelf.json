@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "search":"../../components/vsearch/vsearch",
+    "empty":"../../components/empty/empty"
+  }
+}

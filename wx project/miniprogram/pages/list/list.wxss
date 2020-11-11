@@ -1,0 +1,76 @@
+.tabnav{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.tabnav text{
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 32rpx;
+}
+.active{
+  color: #23b383;
+  font-weight: bold;
+  position: relative;
+}
+.active::after{
+  content: '';
+  width: 100%;
+  height: 5rpx;
+  background-color: #23b383;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.tabart{
+  padding: 20rpx 32rpx;
+}
+.module{
+  display: flex;
+  margin: 20rpx 0;
+}
+.module .fm{
+  width: 215rpx;
+  height: 286rpx;
+  flex-shrink: 0;
+}
+.fm image{
+  width: 100%;
+  height: 100%;
+}
+.info{
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+}
+.info .bookname{
+  font-size: 32rpx;
+  color: #000;
+  text-shadow: 0.125px 0.125px 0 #333, -0.125px 0.125px 0 #333, 0.125px -0.125px 0 #333, -0.125px -0.125px 0 #333;
+}
+.intro{
+  margin: 40rpx 0;
+  line-height: 40rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 26rpx;
+  color: #999;
+}
+.footbar{
+  display: flex;
+  justify-content: space-between;
+}
+.footbar .author{
+  font-size: 26rpx;
+  color: #999;
+}
+.footbar .tag{
+  font-size: 24rpx;
+  color: #000;
+}

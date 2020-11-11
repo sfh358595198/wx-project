@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "search":"../../components/vsearch/vsearch",
+    "swiper":"../../components/swiper/swiper",
+    "updown":"../../components/upanddown/upanddown",
+    "module":"../../components/module/module",
+    "module1":"../../components/module1/module1"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="module">
+  <view class="titlewrap">
+    <text class="title {{isbold?'bold':''}}">{{title}}</text>
+    <text wx:if="{{turn}}" class="turn" bindtap="onturn">换一换</text>
+  </view>
+  <view class="gridwrap">
+    <navigator class="grid" wx:for="{{list}}" wx:key="index" url="{{'../../pages/detail/detail?id='+item.id}}">
+      <image src="{{item.url}}" mode="widthFix"></image>
+      <text class="bookname">{{item.bookname}}</text>
+      <text class="author">{{item.author}}</text>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<view class="empty">
+  <image src="../../images/shelfimg.png"></image>
+  <text>把生命浪费在美好的事物上</text>
+  <button class="btn" bindtap="onclick">去书城</button>
+</view>
